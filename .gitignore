@@ -104,3 +104,6 @@ keys/
 # Cache
 .cache/
 *.cache
+
+# Internal Development Documentation
+Readme.md
