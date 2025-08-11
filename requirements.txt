@@ -1,0 +1,68 @@
+# Core Framework Dependencies
+pydantic==2.5.3
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Web Scraping & HTTP
+firecrawl-py==0.0.16
+aiohttp==3.9.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# AI/LLM Integration
+anthropic==0.8.1
+langchain==0.1.4
+langchain-anthropic==0.1.1
+
+# Database & Storage
+supabase==2.3.4
+postgrest==0.13.2
+pandas>=2.2.0
+
+# Async & Performance
+asyncio-throttle==1.0.2
+tenacity==8.2.3
+
+# Image Processing
+Pillow==10.2.0
+requests-toolbelt==1.0.0
+
+# Data Validation & Serialization
+validators==0.22.0
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Report Generation
+reportlab==4.0.8
+jinja2==3.1.2
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Development Tools
+pytest==7.4.4
+pytest-cov==4.1.0
+pytest-asyncio==0.23.2
+pytest-mock==3.12.0
+
+# Code Quality
+black==23.12.1
+isort==5.13.2
+mypy==1.8.0
+flake8==7.0.0
+bandit==1.7.5
+radon==6.0.1
+
+# Logging & Monitoring
+structlog==23.2.0
+rich==13.7.0
+
+# Configuration & CLI
+click==8.1.7
+PyYAML==6.0.1
+toml==0.10.2
+
+# Security
+cryptography==42.0.0
+
+# Pre-commit hooks
+pre-commit==3.6.0

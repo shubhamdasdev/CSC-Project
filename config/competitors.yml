@@ -1,0 +1,44 @@
+competitors:
+  - name: "West Elm"
+    new_urls:
+      - "https://www.westelm.com/shop/furniture/new/"
+      - "https://www.westelm.com/shop/home-decor/new/"
+      - "https://www.westelm.com/shop/bedding/new/"
+    promo_urls:
+      - "https://www.westelm.com/shop/sale/"
+      - "https://www.westelm.com/shop/clearance/"
+    crawl:
+      depth: 2
+      limit: 50
+      delay: 1
+    
+  - name: "Crate & Barrel"
+    new_urls:
+      - "https://www.crateandbarrel.com/new/"
+      - "https://www.crateandbarrel.com/furniture/new/"
+    promo_urls:
+      - "https://www.crateandbarrel.com/sale/"
+      - "https://www.crateandbarrel.com/outlet/"
+    crawl:
+      depth: 2
+      limit: 30
+      delay: 1.5
+
+  - name: "Pottery Barn" 
+    new_urls:
+      - "https://www.potterybarn.com/shop/new/"
+      - "https://www.potterybarn.com/shop/furniture/new/"
+    promo_urls:
+      - "https://www.potterybarn.com/shop/sale/"
+    crawl:
+      depth: 1
+      limit: 40
+      delay: 2
+
+# Global crawling settings
+global_settings:
+  user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
+  max_retries: 3
+  timeout: 30
+  respect_robots_txt: true
+  concurrent_requests: 5
